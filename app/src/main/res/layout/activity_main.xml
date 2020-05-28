@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/background">
+
+    <TextView
+        android:id="@+id/tball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/tball"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tgym"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/tgym"
+        android:textSize="30sp"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/tpark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/tpark"
+        android:textSize="30sp"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/pika"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/pikachu_home"
+        />
+</LinearLayout>
